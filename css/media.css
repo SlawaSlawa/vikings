@@ -1,0 +1,202 @@
+@media (max-width: 1420px) {
+    .page-logo {
+        left: 10px;
+        top: -6px;
+    }
+}
+@media (max-width: 1366px) {
+    .logo__img {
+        width: 50%;
+    }
+
+    .menu__list-link {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .about__info {
+        width: 250px;
+    }
+    .page-header {
+        height: 120vh;
+    }
+}
+
+@media (max-width: 1200px) {
+    .heroes__inner {
+        display: block;
+    }
+    .heroes__slider-text {
+        max-width: 100%;
+        padding-top: 50px;
+    }
+    .heroes__slider-img {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 1088px) {
+    .seasons__item {
+        height: 340px;
+    }
+}
+
+@media (max-width: 992px) {
+    .page-logo {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .title {
+        margin-bottom: 50px;
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .section-page {
+        padding: 50px 0;
+    }
+   .about__inner {
+       display: block;
+   }
+
+   .video__text {
+       font-size: 48px;
+       line-height: 56px;
+   }
+   .video__text span{
+       padding-right: 200px;
+    }
+    .video__btn {
+        margin-right: 0;
+        padding-left: 62px;
+    }
+
+    .video__btn::before {
+        width: 50px;
+        height: 50px;
+        background-size: cover;
+        top: -16px;
+    }
+    .seasons__inner {
+        grid-gap: 80px 35px;
+    }
+    .heroes__name {
+        font-size: 46px;
+        line-height: 56px;
+        margin-bottom: 25px;
+    }
+    .season-info {
+        display: block;
+        padding: 30px 10px 0 10px;
+    }
+
+    .season-info__num {
+        text-align: left;
+        font-size: 50px;
+        line-height: 26px;
+        margin-bottom: 15px;
+    }
+    .season-info__num span{
+        font-size: 25px;
+        line-height: 32px;
+    }
+}
+
+@media (max-width: 640px) {
+    .page-header {
+        height: 160vh;
+    }
+    .header {
+        background-position: center 10px;
+    }
+  .menu {
+        padding: 0;
+        text-align: center;
+        background: linear-gradient(180deg, #111213 0%, #111213 10%, rgba(32, 31, 33, 0) 86.33%);
+    }
+    .menu__list {
+        display: block;
+        transform: translateY(-130%);
+        transition: all .3s;
+    }
+
+    .menu__list.menu__list--active {
+        display: block;
+        transform: translateY(0);
+        transition: all .3s;
+        background: linear-gradient(180deg, #111213 0%, #111213 10%, rgba(32, 31, 33, 0) 86.33%);
+        padding: 100px 0 50px;
+    }
+
+    .menu__list {
+        display: block;
+        padding: 10px 0;
+    }
+    .logo__img {
+        padding-top: 21vh;
+    }
+
+    .menu__btn {
+        display: flex;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        z-index: 10;
+        padding: 0;
+        border: none;
+        background-color: transparent;
+    }
+
+    .menu__btn span {
+        display: block;
+        background-color: #fff;
+        height: 4px;
+        width: 100%;
+    }
+
+    .menu__btn span::before, .menu__btn span::after {
+        content: "";
+        width: 100%;
+        height: 4px;
+        background-color: #fff;
+        position: absolute;
+    }
+
+    .menu__btn span::before {
+        top: 0;
+        left: 0;
+    }
+
+    .menu__btn span::after {
+        bottom: 0;
+        left: 0;
+    }
+
+    .page-logo {
+        display: block;
+        z-index: 10;
+        left: 10px;
+        top: 10px;
+    }
+}
+
+@media (max-width: 414px) {
+    .seasons__item {
+        height: 203px;
+    }
+}
+
+@media (max-width: 374px) {
+    .page-header {
+        height: 200vh;
+    }
+}
